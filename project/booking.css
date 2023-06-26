@@ -59,3 +59,36 @@ button{
     margin-top: 220px;
     margin-left: 120px;
 }
+
+@media screen and (max-width: 600px){
+    body{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #f2f2f2;
+    
+    }
+
+    .ramen-illust{
+        height: 300px;
+        
+    }
+
+    .main-container{
+        background-color: #f2f2f2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:25px 30px;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 5px;
+        border: 2px solid #000000 ;
+        height: 45vh;
+        width: 70vw;
+        overflow: hidden;
+    }
+}
