@@ -346,6 +346,7 @@ p.copyright-text {
         justify-content: center;
         flex-direction: column;
         height: 30vh;
+        overflow: hidden;
         
       }
 
@@ -356,8 +357,8 @@ p.copyright-text {
       }
 
       .logo-ramen{
-        height: 50px;
-        width: 100px;
+        height: 100px;
+        width: 150px;
         align-self: flex-start;
       }
 }
