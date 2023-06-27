@@ -21,6 +21,12 @@ h1{
     color: #E54B4B;
 }
 
+.fa-bars{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
 .hero{
     height: 100vh;
     width: 100%;
@@ -87,11 +93,11 @@ a{
     text-decoration: none;
 }
 
-ul li a{
+ul li{
     transition: all 0.3s ease 0s;
 }
 
-ul li a:hover{
+ul li:hover{
     color: #E54B4B;
 }
 
@@ -590,9 +596,79 @@ p.copyright-text {
         height: 100px;
         width: 100px;
     }
+
+    /* hamburger menu */
+    nav{
+        align-items: center;
+        justify-content:center;
+        padding: 30px,10%;
+        
+        
+    }
+    .navigation-list {
+        display: grid; 
+        justify-content: center;
+        align-items: center;
+        position: absolute; 
+        left: 0;
+        width: 100vw;
+        align-self:flex-start;
+        height: auto;
+        top: 0;
+        left: 0;
+        background-color: #000000;
+        z-index: 1;
+        overflow: hidden;
+        transform: translateY(-100%);  
+        }
+
+       .list-items{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        height: 10vh;
+        justify-content: center;
+       }
+
+       .list-items:hover{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        height: 10vh;
+        justify-content: center;
+        background-color: #E54B4B;
+        color: white;
+       }
+
+       nav .navbar-toggler {
+        display: grid !important;
+        position: absolute;
+        right: 5%;
+        top: 1%;
+    } 
+
+    .nav-logo{
+        position: absolute;
+        left: 0;
+    }
+        
 }
 
+nav .navbar-toggler {
+    display: none;
+    height: min-content;
+    margin: 18px -10px 0 0;
+    cursor: pointer;
+    }
 
+nav .navbar-toggler .bar {
+    width: 40px;
+    height: 5px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    border-radius: 10%;
+    transition: .4s;
+}
 
 
 
