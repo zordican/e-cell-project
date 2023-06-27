@@ -602,8 +602,6 @@ p.copyright-text {
         align-items: center;
         justify-content:center;
         padding: 30px,10%;
-        
-        
     }
     .navigation-list {
         display: grid; 
@@ -614,10 +612,10 @@ p.copyright-text {
         width: 100vw;
         align-self:flex-start;
         height: auto;
-        top: 0;
+        top: 10%;
         left: 0;
+        z-index: -1;
         background-color: #000000;
-        z-index: 1;
         overflow: hidden;
         transform: translateY(-100%);  
         }
@@ -669,6 +667,14 @@ nav .navbar-toggler .bar {
     border-radius: 10%;
     transition: .4s;
 }
+
+input {
+    display: none;
+    }
+    input:checked ~ nav .navigation-list {
+    transform: translateY(0);
+    z-index: 1;
+    }
 
 
 
