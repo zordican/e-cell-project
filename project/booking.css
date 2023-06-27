@@ -43,6 +43,10 @@ body{
     height: 45vh;
     width: 23vw;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-container .heading{
@@ -53,8 +57,9 @@ body{
 
 .main-container form .details{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
