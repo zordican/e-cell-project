@@ -51,11 +51,7 @@ body{
 
 }
 
-.main-container form .details{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+
 
 
 
@@ -76,6 +72,8 @@ button{
     margin-top: 220px;
     margin-left: 120px;
 }
+
+
 
 @media screen and (max-width: 600px){
     body{
