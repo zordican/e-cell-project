@@ -654,7 +654,7 @@ p.copyright-text {
        }
 
        nav .navbar-toggler {
-        display: grid !important;
+        display: grid !important;  
         position: absolute;
         right: 5%;
         top: 1%;
@@ -667,7 +667,52 @@ p.copyright-text {
         
 }
 
+/* minor adjustments */
+@media screen and (min-width: 601px) and (max-width: 800px){
+    /* landing page */
+    ul li{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        display: inline-block;
+        margin: 0px 10px;
+        font-size: 11.5px;
+    }
+}
 
+@media screen and (min-width: 601px) and (max-width: 1200px){
+    /* about-us page */
+    #ramen-illus{
+        height: auto;
+        width: 50vw;
+    }
+    
+    .top-text, .middle-text, .description-text{
+        font-family: 'Noto Sans JP', sans-serif;
+        margin-left: 50px;
+    }
+    .top-text{
+        font-size: 1.5vw;
+        color: #313638;
+    }
+    .middle-text{
+        color: #1e9e67;
+        font-size:3vw;
+    }
+    .description-text{
+        color: #313638;
+        margin-top: 2.5vw;
+    }
+    
+    .about-us{
+        height:60vh;
+        width: 100%;
+        background-color: #F6E3C2; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+}
 
 
 
